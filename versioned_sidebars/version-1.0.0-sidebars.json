@@ -1,0 +1,32 @@
+{
+  "tutorialSidebar": [
+    {
+      "type": "category",
+      "label": "Introduction",
+      "collapsible": true,
+      "collapsed": false,
+      "items": [
+        "introduction/Introduction"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Advanced Guides",
+      "collapsible": true,
+      "collapsed": false,
+      "items": [
+        "createZaloApp/createzaloapp"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "System Design",
+      "collapsible": true,
+      "collapsed": false,
+      "items": [
+        "systemDesign/intro",
+        "systemDesign/systemDesign"
+      ]
+    }
+  ]
+}
