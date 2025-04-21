@@ -3,8 +3,6 @@ sidebar_position: 2
 sidebar_label: Easy
 sidebar_class_name: green
 slug: /intro
-lastmod: date
-changefreq: ljamg
 ---
 
 # Szx Intro

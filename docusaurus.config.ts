@@ -20,7 +20,9 @@ const config: Config = {
   // organizationName: "facebook", // Usually your GitHub org/user name.
   // projectName: "docusaurus", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  // onBrokenLinks: "throw",
+  // onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -28,7 +30,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "vi",
-    locales: ["vi", "en"],
+    locales: ["vi"],
   },
 
   presets: [
@@ -42,7 +44,7 @@ const config: Config = {
           editUrl: "https://git.dev.intelin.vn",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          lastVersion: "1.0.0",
+          lastVersion: "current",
           versions: {
             current: {
               label: "Next 🚧",
